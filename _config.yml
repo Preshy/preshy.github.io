@@ -1,5 +1,5 @@
 # main text of home
-name: Precious Opusunju (masterpreshy)
+name: Precious Opusunju
 bio: A budding nomad that writes code, eats the best food, lives life, build and deploy innovative products for a living.
 
 # twitter summary info
@@ -31,27 +31,27 @@ permalink: /:title/
 # if you don't want comments in your posts, leave categories empty
 disqus:
   shortname: masterpreshy # enter this from your disqus account
-  categories: [blog, project] # only show disqus for posts that have these categories
+  categories: [blog, project, tours] # only show disqus for posts that have these categories
 
 # if you don't have any of social below, comment the line
 #facebook: myfacebook
 twitter: devpreshy
 # google: mygoogle
-# instagram: myinstagram
+instagram: pdev__
 # pinterest: mypinterest
-# linkedin: mylinkedin
+linkedin: masterpreshy
 # youtube: myyoutube
 # spotify: myspotify
 github: Preshy
 # gitlab: mygitlab
 # lastfm: mylastfm
 # stackoverflow: 7044681/mystackoverflow
-# quora: userquora
+quora: masterpreshy
 # reddit: username
-medium: medium
+medium: masterpreshy
 # vimeo: myvimeo
 # lanyrd: mylanyrd
-email: me@masterpreshy.dev
+email: masterpreshy1@gmail.com
 
 authors:
     masterpreshy:
@@ -67,8 +67,8 @@ authors:
 width: normal
 
 # if you don't need pagination, comment the *paginate* configs below
-# paginate: 5
-# paginate_path: "blog/:num/"
+paginate: 5
+paginate_path: "blog/:num/"
 
 # if you don't need projects, comment the *projects* configs below
 projects: true
@@ -76,6 +76,7 @@ projects: true
 # if you don't need "about" or "blog", comment them out below
 about: true
 blog: true
+tours: true
 
 # do you want to show the "read time" of the posts?
 read-time: true
@@ -101,6 +102,7 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-admin
+  - jekyll-paginate
 
 jekyll-mentions:
     base_url: https://github.com
