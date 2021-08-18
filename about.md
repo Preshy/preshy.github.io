@@ -5,8 +5,9 @@ skip_index: true
 ---
 ![Profile Image]({{ site.url }}/{{ site.picture }})
 
-Hi, I'm Precious (Preshy) and I'm a nomad, web and backend developer. 
-In my spare time I get my hands dirty with security and penetration testing 
+Hi, I'm Precious (Preshy) and I'm a senior software engineer, tech-business man, entreprenuer and music executive. I specialise in web technologies and backend development. 
+
+In my spare time I get my hands dirty with cyber security and penetration testing 
 and I read a lot about random subjects like entertainment, business and startups etc.  
 
 Outside my technical background, I enjoy
@@ -16,7 +17,13 @@ Outside my technical background, I enjoy
 - Watch movies when I can
 - Not being a fashionable person
 
-I currently work at Vesicash Innovative Technologies Limited as an Engineering Manager. I've previously had gigs and worked with
+I currently own and work at [DebugHunters.com](https://debughunters.com) as the Founder and CTO (Chief Technology Officer). I've previously had gigs and worked with
+
+- Vesicash Innovative Technology Limited:
+	- I worked as a lead developer and engineering manager
+	- I built the api's and backend systems that powers their escrow technology
+	- I lead a team of 5 developers
+	- I worked closely with the management team to establish tech relationships with partners and businesses
 
 - Incollab Corp:
 	- I worked as the lead developer
