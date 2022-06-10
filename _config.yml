@@ -1,6 +1,6 @@
 # main text of home
 name: Precious Opusunju
-bio: Senior Software Engineer and Cyber Security Analyst
+bio: "Senior Software Engineer and Cyber Security Analyst"
 
 # twitter summary info
 description: A blog about technology and stuff related
@@ -22,7 +22,7 @@ resume-external: false
 permalink: /:title/
 
 # To enable google analytics, supply your token below
-analytics-google: 'UA-104145176-1'
+# analytics-google: 'UA-104145176-1'
 
 # To enable piwik tracking, supply your url & site ID below
 # analytics-piwik-url: 'piwik.my-host.com'
