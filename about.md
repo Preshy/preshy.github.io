@@ -17,7 +17,7 @@ Outside my technical background, I enjoy
 - Watch movies when I can
 - Not being a fashionable person
 
-I currently work at [Vesicash](https://vesicash.com) as the Engineering Manager and also own [DebugHunters.com](https://debughunters.com) as the Founder and CTO (Chief Technology Officer). I've previously had gigs and worked with
+I currently work at [Vesicash](https://vesicash.com) as the Engineering Manager and also own [DebugHunters.net](https://debughunters.net) as the Founder and CTO (Chief Technology Officer). I've previously had gigs and worked with
 
 - Incollab Corp:
 	- I worked as the lead developer
