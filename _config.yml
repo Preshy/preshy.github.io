@@ -1,6 +1,6 @@
 # main text of home
 name: Precious Opusunju
-bio: "Senior Software Engineer and Cyber Security Analyst"
+bio: "Engineering Manager, CTO, Founder and Cyber Security Analyst"
 
 # twitter summary info
 description: A blog about technology and stuff related
@@ -70,11 +70,11 @@ paginate: 5
 paginate_path: "blog/:num/"
 
 # if you don't need projects, comment the *projects* configs below
-projects: true
+projects: false
 
 # if you don't need "about" or "blog", comment them out below
 about: true
-blog: true
+blog: false
 # tours: false
 
 # do you want to show the "read time" of the posts?

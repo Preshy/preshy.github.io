@@ -95,4 +95,4 @@ I try to write about projects I find interesting. Find a couple on
 ## Impressed? Hire me before your competitor does and crushes you!!!
 If I fit as the person you need to take your company or business to the next level, what are you waiting for?
 
-Find [a pdf version here](https://masterpreshy.com/resume.pdf), [shoot me a mail](mailto:masterpreshy1@gmail.com) or [slide in my twitter DM](https://twitter.com/devpreshy)  
+[shoot me a mail](mailto:masterpreshy1@gmail.com) or [iMessage me](mailto:masterpreshy@icloud.com)  
