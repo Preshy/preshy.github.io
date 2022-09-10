@@ -89,7 +89,7 @@ I currently work at [Vesicash](https://vesicash.com) as the Engineering Manager 
 
 ## Projects
 I try to write about projects I find interesting. Find a couple on
-- [My project page](/projects)  
+- [My linkedin page](https://linkedin.com/in/masterpreshy)  
 - [My github page](https://github.com/Preshy)  
 
 ## Impressed? Hire me before your competitor does and crushes you!!!
