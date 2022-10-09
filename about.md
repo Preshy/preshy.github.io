@@ -17,7 +17,7 @@ Outside my technical background, I enjoy
 - Watch movies when I can
 - Not being a fashionable person
 
-I currently work at [Vesicash](https://vesicash.com) as the Engineering Manager and also own [DebugHunters.net](https://debughunters.net) as the Founder and CTO (Chief Technology Officer). I've previously had gigs and worked with
+I currently own and run [DongMi](https://dongmi.shop) as the Founder and CTO (Chief Technology Officer) and i also own [DebugHunters.net](https://debughunters.net) as the Founder and CTO (Chief Technology Officer). I've previously had gigs and worked with
 
 - Incollab Corp:
 	- I worked as the lead developer
@@ -83,7 +83,7 @@ I currently work at [Vesicash](https://vesicash.com) as the Engineering Manager 
 - I adapt to new environment and situations fast
 - Incredible at learning fast and learning on the job
 - Problem solving ability. I smash complex problems into the molecular ones.
-- Critical thinking and bbservation
+- Critical thinking
 - Great at conflict resolution
 - Great with people!
 
@@ -92,7 +92,4 @@ I try to write about projects I find interesting. Find a couple on
 - [My linkedin page](https://linkedin.com/in/masterpreshy)  
 - [My github page](https://github.com/Preshy)  
 
-## Impressed? Hire me before your competitor does and crushes you!!!
-If I fit as the person you need to take your company or business to the next level, what are you waiting for?
-
-[shoot me a mail](mailto:masterpreshy1@gmail.com) or [iMessage me](mailto:masterpreshy@icloud.com)  
+[shoot me a mail](mailto:masterpreshy1@gmail.com)
