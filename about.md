@@ -5,7 +5,7 @@ skip_index: true
 ---
 ![Profile Image]({{ site.url }}/{{ site.picture }})
 
-Hi, I'm Precious Opusunju (Preshy) and I'm a senior software engineer, tech-business man, entreprenuer and music executive. I specialise in web technologies and backend development. 
+Hi, I'm Precious Opusunju (Preshy) and I'm a senior software engineer (10+ years of experience), tech-business man, entreprenuer and music executive. I specialise in web technologies and backend development. 
 
 In my spare time I get my hands dirty with cyber security and penetration testing 
 and I read a lot about random subjects like entertainment, business and startups etc.  
