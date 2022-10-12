@@ -17,19 +17,23 @@ Outside my technical background, I enjoy
 - Watch movies when I can
 - Not being a fashionable person
 
-I currently own and run [DongMi](https://dongmi.shop) as the Founder and CTO (Chief Technology Officer) and i also own [DebugHunters.net](https://debughunters.net) as the Founder and CTO (Chief Technology Officer). I've previously had gigs and worked with
+I currently own and run [DongMi](https://dongmi.shop) as the Founder and CEO (Chief Executive Officer) and i also own [DebugHunters.net](https://debughunters.net) as the Founder and CEO (Chief Executive Officer). I also work with some firms below.
 
-- Incollab Corp:
-	- I worked as the lead developer
+- Vesicash [Full-time]:
+	- I worked as the engineering manager [2022 - present]
+	- I worked as the Lead Developer [2019 - 2021]
+
+- Incollab Corp [Contract]:
+	- I worked as the lead developer [2017-2018]
 	- Doubled up as a dev ops
 
-- Yanpals:
-	- I worked as the backend engineer
+- Yanpals [Contract]:
+	- I worked as the backend engineer [2018-2018]
 	- Worked as devops
 	- All so did some full stack development
 
-- NugiTech:
-	- Worked as a full-stack software engineer
+- NugiTech [Contract]:
+	- Worked as a full-stack software engineer [2017-2017]
 	- Doubled up as a penetration tester for in-house projects.
 
 ## Some of my technical skills

@@ -1,6 +1,6 @@
 # main text of home
 name: Precious Opusunju
-bio: "Engineering Manager, CTO, Founder and Cyber Security Analyst"
+bio: "Genius"
 
 # twitter summary info
 description: A blog about technology and stuff related
@@ -55,7 +55,7 @@ email: masterpreshy@icloud.com
 authors:
     masterpreshy:
         name: Precious Opusunju
-        bio: Software Engineering and Cyber Security.
+        bio: Genius.
         external-image: false
         picture: assets/images/preshy.jpg
         twitter: devpreshy
