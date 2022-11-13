@@ -5,7 +5,7 @@ skip_index: true
 ---
 ![Profile Image]({{ site.url }}/{{ site.picture }})
 
-Hi, I'm Precious Opusunju (Preshy) and I'm a senior software engineer (15+ years of experience), tech-business man, entreprenuer and music executive. I specialise in web technologies and backend development. 
+Hi, I'm Precious Opusunju (Preshy) and I'm a senior software engineer (15+ years of experience), tech-business man, entreprenuer and music executive. I specialise in web technologies, backend development, machine learning and artificial intelligence. 
 
 In my spare time I get my hands dirty with cyber security and penetration testing 
 and I read a lot about random subjects like entertainment, business and startups etc.  
@@ -15,7 +15,6 @@ Outside my technical background, I enjoy
 - Hanging out with friends and meeting new people
 - I listen to a lot of music genres
 - Watch movies when I can
-- Not being a fashionable person
 
 I currently own and run [DongMi](https://dongmi.shop) as the Founder and CEO (Chief Executive Officer) and i also own [DebugHunters.net](https://debughunters.net) as the Founder and CEO (Chief Executive Officer). I also work with some firms below.
 
