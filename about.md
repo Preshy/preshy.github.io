@@ -19,6 +19,23 @@ Outside my technical background, I enjoy
 
 I currently own and run [DongMi](https://dongmi.shop) as the Founder and CEO (Chief Executive Officer) and i also own [DebugHunters.net](https://debughunters.net) as the Founder and CEO (Chief Executive Officer). I also work with some firms below.
 
+- DongMi [Full-time]
+	- Founder (2022-present)
+	- CEO (2022-present)
+
+- DebugHunters
+	- Founder (2019-present)
+	- CTO (2019-present)
+
+- PropertyAlfred
+	- Founder (2020-present)
+
+- Food-C
+	- Founder (2021-present)
+
+- LOAP (Life of a Party)
+	- Founder (2020-present)
+
 - Vesicash [Full-time]:
 	- I worked as the engineering manager [2022 (Jan) - 2022 (Nov)]
 	- I worked as the Lead Developer [2019 (Aug) - 2021 (Dec)]
