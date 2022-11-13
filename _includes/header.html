@@ -6,7 +6,24 @@
 %}{% assign showHeader = true %}{% endif %}
 
 {% if showHeader == true %}
-    <meta property="og:image" content="assets/images/cover.jpg">
+    <!-- Google / Search Engine Tags -->
+    <meta itemprop="name" content="Home">
+    <meta itemprop="description" content="The bio-website of Precious Opusunju (masterpreshy)">
+    <meta itemprop="image" content="https://masterpreshy.com/assets/images/cover.jpg">
+
+    <!-- Facebook Meta Tags -->
+    <meta property="og:url" content="https://masterpreshy.com">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Home">
+    <meta property="og:description" content="The bio-website of Precious Opusunju (masterpreshy)">
+    <meta property="og:image" content="https://masterpreshy.com/assets/images/cover.jpg">
+
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Home">
+    <meta name="twitter:description" content="The bio-website of Precious Opusunju (masterpreshy)">
+    <meta name="twitter:image" content="https://masterpreshy.com/assets/images/cover.jpg">
+
     <header class="header-home {% if site.animation %}animated{% endif %}">
         {% if site.about %}
             <a class="link" href="{{ site.url }}/about">
