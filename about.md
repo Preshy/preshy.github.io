@@ -5,10 +5,7 @@ skip_index: true
 ---
 ![Profile Image]({{ site.url }}/{{ site.picture }})
 
-Hi, I'm Precious Opusunju (Preshy) and I'm a senior software engineer (15+ years of experience), tech-business man, entreprenuer and music executive. I specialise in web technologies, backend development, machine learning and artificial intelligence. 
-
-In my spare time I get my hands dirty with cyber security and penetration testing 
-and I read a lot about random subjects like entertainment, business and startups etc.  
+Hi, I'm Precious Opusunju (Preshy) and i am an experienced senior software engineer with over a decade of expertise in full-stack development. Possessing a passion for AI and machine learning, as well as a unique ability to merge technical skills with creative product development. Skilled in frontend and backend development, DevOps, and machine learning, and armed with strong interpersonal skills, including leadership, empathy, attention to detail, and quick learning abilities. Committed to delivering top-quality results and driving success for projects and teams.
 
 Outside my technical background, I enjoy
 - Entertainment
