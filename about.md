@@ -15,13 +15,11 @@ Outside my technical background, I enjoy
 
 I currently own and run [DongMi](https://chat.dongmi.shop) as the Founder and CEO (Chief Executive Officer) and i also own [DebugHunters.net](https://debughunters.net) as the Founder and CEO (Chief Executive Officer). I also work with some firms below.
 
-- DongMi [Full-time]
+- DongMi
 	- Founder (2022-present)
-	- CEO (2022-present)
 
 - DebugHunters
 	- Founder (2019-present)
-	- CTO (2019-present)
 
 - PropertyAlfred
 	- Founder (2020-present)
