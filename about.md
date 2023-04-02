@@ -13,7 +13,7 @@ Outside my technical background, I enjoy
 - I listen to a lot of music genres
 - Watch movies when I can
 
-I currently own and run [DongMi](https://dongmi.shop) as the Founder and CEO (Chief Executive Officer) and i also own [DebugHunters.net](https://debughunters.net) as the Founder and CEO (Chief Executive Officer). I also work with some firms below.
+I currently own and run [DongMi](https://chat.dongmi.shop) as the Founder and CEO (Chief Executive Officer) and i also own [DebugHunters.net](https://debughunters.net) as the Founder and CEO (Chief Executive Officer). I also work with some firms below.
 
 - DongMi [Full-time]
 	- Founder (2022-present)
