@@ -1,6 +1,6 @@
 # main text of home
-name: Preshy
-bio: "Tech Entreprenuer"
+name: Master Preshy
+bio: "Seasoned Senior Software Engineer"
 
 # twitter summary info
 description: The bio-website of Precious Opusunju (masterpreshy)
@@ -35,11 +35,11 @@ disqus:
 
 # if you don't have any of social below, comment the line
 #facebook: myfacebook
-twitter: devpreshy
+# twitter: devpreshy
 # google:  McZlatanBourne
-instagram: devpreshy
+# instagram: devpreshy
 # pinterest: lagosnomad
-linkedin: masterpreshy
+linkedin: devpreshy
 # youtube: channel/UCrutGwMzAC1FxApdMIwsvYg
 # spotify: myspotify
 github: Preshy
@@ -47,10 +47,10 @@ github: Preshy
 # stackoverflow: 3812348/mczlatan
 # quora: Mczlatan-Bourne
 # reddit: lagosnomad
-medium: '_masterpreshy'
+# medium: '_masterpreshy'
 # vimeo: myvimeo
 # lanyrd: mylanyrd
-email: precious@dongmi.shop
+# email: precious@dongmi.shop
 
 authors:
     masterpreshy:
