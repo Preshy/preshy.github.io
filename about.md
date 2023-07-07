@@ -5,16 +5,9 @@ skip_index: true
 ---
 ![Profile Image]({{ site.url }}/{{ site.picture }})
 
-Hi, I'm Precious Opusunju (Preshy) and i am an experienced senior software engineer with over a decade of expertise in full-stack development. Possessing a passion for AI and machine learning, as well as a unique ability to merge technical skills with creative product development. Skilled in frontend and backend development, DevOps, and machine learning, and armed with strong interpersonal skills, including leadership, empathy, attention to detail, and quick learning abilities. Committed to delivering top-quality results and driving success for projects and teams.
+I’m Precious Opusunju (Preshy), a seasoned senior software engineer with over a decade of experience in full-stack development. With a deep passion for AI and machine learning, I excel at merging technical prowess with creative product development. Proficient in both frontend and backend development, DevOps, and machine learning, I bring a versatile skill set to the table. Alongside my technical expertise, I possess strong interpersonal skills, including leadership, empathy, attention to detail, and a quick learning ability. I am dedicated to delivering top-quality results, fostering success for projects and teams alike. Let’s collaborate and achieve greatness together!
 
-Outside my technical background, I enjoy
-- Entertainment
-- Hanging out with friends and meeting new people
-- I listen to a lot of music genres
-- Watch movies when I can
-
-I currently own and run [DongMi](https://chat.dongmi.shop) as the Founder and CEO (Chief Executive Officer) and i also own [DebugHunters.net](https://debughunters.net) as the Founder and CEO (Chief Executive Officer). I also work with some firms below.
-
+My accomplishments:
 - DongMi
 	- Founder (2022-present)
 
@@ -107,7 +100,7 @@ I currently own and run [DongMi](https://chat.dongmi.shop) as the Founder and CE
 
 ## Projects
 I try to write about projects I find interesting. Find a couple on
-- [My linkedin page](https://linkedin.com/in/masterpreshy)  
+- [My linkedin page](https://linkedin.com/in/devpreshy)  
 - [My github page](https://github.com/Preshy)  
 
-[shoot me a mail](mailto:masterpreshy1@gmail.com)
+[shoot me a mail](mailto:precious@dongmi.shop)
