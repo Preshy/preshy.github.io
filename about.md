@@ -16,12 +16,14 @@ My accomplishments:
    
 - Vesicash [Full-time]:
   - Engineering Manager [Jan 2022 - Nov 2022]
+  	- I spearheaded a team of 4 in the conceptualization and maintenance of multiple backend systems across our product stack, in collaboration with multiple departments within the company.
   - Lead Developer [Aug 2019 - Dec 2021]
+    - As the Lead Developer, I was responsible for the conceptualization, management, and maintenance of the team of engineers who developed Version 1 of Vesicash’s Financial Technology Infrastructure. 
 
 - Incollab Corp [Contract]:
   - Lead Developer [July 2017 - Jan 2018]
-    - Additionally, I handled dev ops tasks
-    - My primary focus was on building robust REST APIs
+    - I served as a full-stack software engineer, developing both the frontend and backend aspects of the project
+    - I was also responsible for deployment and technical meetings
     - I also integrated APIs into frontend designs
 
 - Yanpals [Contract]:
