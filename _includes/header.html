@@ -8,21 +8,21 @@
 {% if showHeader == true %}
     <!-- Google / Search Engine Tags -->
     <meta itemprop="name" content="Home">
-    <meta itemprop="description" content="The bio-website of Precious Opusunju (masterpreshy)">
-    <meta itemprop="image" content="https://masterpreshy.com/assets/images/cover.jpg">
+    <meta itemprop="description" content="The bio-website of Master Precious (masterpreshy)">
+    <meta itemprop="image" content="{% if site.external-image %}{{ site.picture }}{% else %}{{ site.url }}/{{ site.picture }}{% endif %}">
 
     <!-- Facebook Meta Tags -->
-    <meta property="og:url" content="https://masterpreshy.com">
+    <meta property="og:url" content="https://preshy.dev">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Home">
-    <meta property="og:description" content="The bio-website of Precious Opusunju (masterpreshy)">
-    <meta property="og:image" content="https://masterpreshy.com/assets/images/cover.jpg">
+    <meta property="og:description" content="The bio-website of Master Precious (masterpreshy)">
+    <meta property="og:image" content="{% if site.external-image %}{{ site.picture }}{% else %}{{ site.url }}/{{ site.picture }}{% endif %}">
 
     <!-- Twitter Meta Tags -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Home">
-    <meta name="twitter:description" content="The bio-website of Precious Opusunju (masterpreshy)">
-    <meta name="twitter:image" content="https://masterpreshy.com/assets/images/cover.jpg">
+    <meta name="twitter:description" content="The bio-website of Master Precious (masterpreshy)">
+    <meta name="twitter:image" content="{% if site.external-image %}{{ site.picture }}{% else %}{{ site.url }}/{{ site.picture }}{% endif %}">
 
     <header class="header-home {% if site.animation %}animated{% endif %}">
         {% if site.about %}
