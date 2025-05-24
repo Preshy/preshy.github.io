@@ -4,12 +4,13 @@
 .tours
     margin-top: 125px
 
-    > .list
+    > .list // This targets the <section class="list"> in blog/index.html
         border-top: 1px solid $epsilon
         margin-top: 30px
-        padding-top: 40px
+        // padding-top: 40px // Removed, flex gap will handle spacing
         position: relative
 
+        // Keep the decorative element for now, can be removed if it looks odd with cards
         &:before
             display: block
             content: " "
@@ -17,61 +18,152 @@
             height: 7px
             border: $epsilon 1px solid
             position: absolute
-            top: -5px
+            top: -5px // Adjust if necessary due to padding changes
             left: 50%
             margin-left: -5px
             background: #FFF
             box-shadow: #FFF 0 0 0 5px
             border-radius: 3px
 
+        // Flex container styles for the list of posts
+        display: flex
+        flex-wrap: wrap
+        gap: 20px // Space between cards
+        padding: 20px 0 // Add some padding around the container, adjust as needed
+        list-style: none // Remove default list styling if it was a ul/ol
+        // margin: 0; // Reset margin if necessary
+
+        // Styling for each post card (which is now an article.post-card)
+        > article.post-card {
+            flex: 1 1 100%; // Default to full width on small screens
+            margin-bottom: 0; // The gap property handles spacing
+
+            @media (min-width: 576px) { // Small tablets and up
+                flex-basis: calc(50% - 10px); // 2 columns, accounting for half of the gap
+            }
+
+            @media (min-width: 992px) { // Desktops
+                flex-basis: calc(33.333% - 14px); // 3 columns, adjust gap math (20px * 2/3)
+            }
+        }
+
+// Remove or adjust old .item specific styling if it conflicts.
+// The .item class was on the direct children of .list previously.
+// Now, the direct children are article.post-card.
+// Most of the styles below for .item, .item > .url, .item > .url > .title, aside
+// are now irrelevant because the structure is handled by _includes/blog-post.html
+// and _sass/components/_cards.scss.
+
+// .home > .list, (leaving .home and .projects as they might have different structures)
+// .blog > .list, (This is what we are modifying)
+// .tours > .list,
+// .projects > .list
+//     > .item  // This rule and its children are no longer needed for .blog > .list
+//         display: block
+//         width: 95%
+//         margin: 0 auto
+
+//     > .item > .url
+//         width: 100%
+//         display: block
+//         padding: 20px 0
+//         text-decoration: none
+
+//     > .item > .url > .title
+//         margin: 0
+//         width: 75%
+//         font-weight: 500
+//         transition: all ease-in-out .2s
+
+//     > .item:hover > .url > .title
+//         color: $delta
+
+//     aside
+//         position: relative
+//         top: 2px
+//         margin: 0
+//         width: 25%
+//         float: right
+//         font-weight: 300
+//         color: $gama
+//         text-align: right
+//         transition: all ease-in-out .2s
+
+//     .item:hover .url aside
+//         color: $alpha
+
+// Specific overrides for .blog > .list children if any old styles persist or need specific handling:
+.blog > .list {
+    > .item { // This targets the old structure, which we want to stop applying
+        // Resetting potentially conflicting styles from the old .item structure
+        display: none; // Hide old .item if it's somehow still rendered or if includes are mixed up
+                       // Or, more safely, ensure the loop in blog/index.html uses the new include correctly.
+                       // The goal is to make sure only .post-card elements are direct children for the flex layout.
+    }
+}
+
+
+// The following rules for .blog > .list > .item > .url might also be obsolete
+// for the new card layout as the internal structure is different.
+// .blog > .list > .item > .url,  // This targets the old structure
+// .projects > .list > .item > .url
+// .tours > .list > .item > .url
+//     > .title
+//         display: inline
+
+//     > .emoji
+//         display: inline
+//         position: relative
+//         top: -4px
+//         margin-right: 10px
+
+// Retaining styles for .home, .projects, .tours if they are not using cards
 .home > .list,
-.blog > .list,
-.tours > .list,
-.projects > .list
-    > .item
-        display: block
-        width: 95%
-        margin: 0 auto
-
-    > .item > .url
-        width: 100%
-        display: block
-        padding: 20px 0
-        text-decoration: none
-
-    > .item > .url > .title
-        margin: 0
-        width: 75%
-        font-weight: 500
-        transition: all ease-in-out .2s
-
-    > .item:hover > .url > .title
-        color: $delta
-
-    // maybe we can't nest html5 elements
-    // can you help me?
-    aside
-        position: relative
-        top: 2px
-        margin: 0
-        width: 25%
-        float: right
-        font-weight: 300
-        color: $gama
-        text-align: right
-        transition: all ease-in-out .2s
-
-    .item:hover .url aside
-        color: $alpha
-
-.blog > .list > .item > .url,
-.projects > .list > .item > .url
-.tours > .list > .item > .url
-    > .title
-        display: inline
-
-    > .emoji
-        display: inline
-        position: relative
-        top: -4px
-        margin-right: 10px
+.projects > .list,
+.tours > .list {
+    > .item {
+        display: block;
+        width: 95%;
+        margin: 0 auto;
+        > .url {
+            width: 100%;
+            display: block;
+            padding: 20px 0;
+            text-decoration: none;
+            > .title {
+                margin: 0;
+                width: 75%;
+                font-weight: 500;
+                transition: all ease-in-out .2s;
+            }
+            > .emoji { // If used in projects/tours
+                display: inline;
+                position: relative;
+                top: -4px;
+                margin-right: 10px;
+            }
+        }
+        &:hover > .url > .title {
+            color: $delta;
+        }
+        aside {
+            position: relative;
+            top: 2px;
+            margin: 0;
+            width: 25%;
+            float: right;
+            font-weight: 300;
+            color: $gama;
+            text-align: right;
+            transition: all ease-in-out .2s;
+        }
+        &:hover .url aside {
+            color: $alpha;
+        }
+    }
+}
+// Ensure specific title styling for projects and tours if needed
+.projects > .list > .item > .url > .title,
+.tours > .list > .item > .url > .title {
+    display: inline;
+}

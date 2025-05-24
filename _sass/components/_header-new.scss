@@ -1,0 +1,27 @@
+.header-home { // As per _includes/header.html
+  text-align: center;
+  padding: 2em 0;
+
+  .selfie {
+    border-radius: 50%;
+    max-width: 100px;
+    margin-bottom: 1em;
+    border: 3px solid $epsilon; // Use variable from _variables.scss
+  }
+
+  h1.title {
+    font-size: 2.5rem; // Adjust as needed
+    color: $beta;     // Use variable
+    margin-bottom: 0.25em;
+    font-weight: bold;
+  }
+
+  h2.description {
+    font-size: 1.2rem; // Adjust as needed
+    color: $alpha;    // Use variable
+    margin-bottom: 1em;
+    font-weight: normal;
+  }
+  // Social links styling will be handled by their own component SASS if it exists, or add basic styling here if needed.
+  // Ensure social links (_includes/social-links.html, styled by _sass/components/_social-links.sass) integrate well.
+}

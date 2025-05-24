@@ -5,6 +5,14 @@
         text-align: center
         margin-bottom: 3rem
 
+    > .post-description // Styling for the new p.post-description
+        text-align: center;
+        font-size: 1.8rem; // Slightly larger than normal text, but smaller than title
+        color: $alpha; // Use the primary text color, or $gama for something softer
+        margin-bottom: 2rem;
+        font-weight: 300; // Lighter weight for a subtitle feel
+        line-height: 1.6;
+
     > .date,
     > .post-tags
         color: $gama
@@ -32,16 +40,39 @@
         text-decoration: none
         display: inline-block
 
-    // general style
-    > h2,
-    > h3,
-    > h4
-        margin-top: 40px
+    // General style for elements within the post content (markdown output)
+    // Using descendant selectors instead of direct child selectors
+    h2,
+    h3,
+    h4
+        margin-top: 2.5em; // Increased top margin for better separation
+        margin-bottom: 1em;
 
         a
             text-decoration: none
 
-    > .title-image
+    p,
+    ul,
+    ol
+        margin-bottom: 1.5em; // Ensure consistent bottom margin
+
+    // Styling for images within post content
+    img
+        max-width: 100%;
+        height: auto;
+        display: block; // Block display to allow margins
+        margin: 2em auto; // Center images and add vertical space
+        border-radius: 6px; // Consistent with pre
+        box-shadow: 0 2px 8px rgba(0,0,0,0.1); // Subtle shadow for depth
+
+    // Ensure lists have good spacing
+    ul, ol
+        padding-left: 2em; // Standard indentation
+        li
+            margin-bottom: 0.5em;
+
+
+    > .title-image // This targets the specific class .title-image in post.html layout
         max-height: 120px
         display: block
         margin: 0 auto
