@@ -13,10 +13,13 @@
 @import "components/author";
 @import "components/disqus";
 @import "components/footer";
-@import "components/header";
-@import "components/nav";
+// @import "components/header"; // Commented out
+@import "components/header-new";
+// @import "components/nav"; // Commented out
+@import "components/nav-new";
 @import "components/others";
 @import "components/pagination";
+@import "components/cards";
 @import "components/related";
 @import "components/share";
 @import "components/side-by-side";

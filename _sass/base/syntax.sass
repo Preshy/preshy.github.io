@@ -3,9 +3,45 @@
  * Courtesy of GitHub.com
  */
 
-.highlight
+// Base styling for code blocks and inline code
+pre, code {
+  font-family: $fontMonospace; // from _variables.sass
+  font-size: 1.4rem; // Assumes html font-size: 62.5%
+  line-height: 1.6; // Increased for better readability
+}
+
+pre {
+  background-color: #f7f7f7; // Slightly off-white, good for light themes
+  border: 1px solid $epsilon; // $epsilon from _variables.scss
+  border-radius: 6px; // Slightly more rounded
+  padding: 1.2em; // More padding
+  overflow-x: auto; // Horizontal scroll
+  margin-bottom: 1.5em; // Space after code block
+
+  code {
+    background-color: transparent; // Code inside pre shouldn't have its own background
+    border: none;
+    padding: 0;
+    font-size: inherit; // Inherit font-size from pre
+    line-height: inherit; // Inherit line-height from pre
+  }
+}
+
+// Inline code specific styling (if different from pre>code)
+// For example, if it needs a subtle background to differentiate from text
+code:not(pre > code) {
+  background-color: #f0f0f0; // A very light grey for inline code
+  padding: 0.2em 0.4em;
+  border-radius: 3px;
+  font-size: 0.85em; // Slightly smaller than block code if desired
+}
+
+
+.highlight {
+	background: transparent; // The pre element will handle background color
+
 	.c
-		color: #999988
+		color: #999988 // Comment
 		font-style: italic
 
 	.err
@@ -102,40 +138,40 @@
 		color: #dd1144
 
 	.n
-		color: #333333
+		color: #333333 // Name
 
 	.na
-		color: teal
+		color: #007faa // Name.Attribute (was teal)
 
 	.nb
-		color: #0086b3
+		color: #007faa // Name.Builtin (was #0086b3)
 
 	.nc
-		color: #445588
+		color: #445588 // Name.Class
 		font-weight: bold
 
 	.no
-		color: teal
+		color: #007faa // Name.Constant (was teal)
 
 	.ni
-		color: purple
+		color: #5c00c7 // Name.Entity (was purple)
 
 	.ne
-		color: #990000
+		color: #990000 // Name.Exception
 		font-weight: bold
 
 	.nf
-		color: #990000
+		color: #795da3 // Name.Function (was #990000)
 		font-weight: bold
 
 	.nn
-		color: #555555
+		color: #555555 // Name.Namespace
 
 	.nt
-		color: navy
+		color: #007faa // Name.Tag (was navy)
 
 	.nv
-		color: teal
+		color: #007faa // Name.Variable (was teal)
 
 	.ow
 		font-weight: bold
@@ -192,13 +228,13 @@
 		color: #999999
 
 	.vc
-		color: teal
+		color: #007faa // Name.Variable.Class (was teal)
 
 	.vg
-		color: teal
+		color: #007faa // Name.Variable.Global (was teal)
 
 	.vi
-		color: teal
+		color: #007faa // Name.Variable.Instance (was teal)
 
 	.il
 		color: #009999

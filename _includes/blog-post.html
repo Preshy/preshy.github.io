@@ -1,6 +1,19 @@
-<div class="item {% if post.star %}star{% endif %}">
-    <a class="url" href="{{ site.url }}{{ post.url }}">
-        <aside class="date"><time datetime="{{ post.date | date:"%d-%m-%Y" }}">{{ post.date | date: "%b %d %Y" }}</time></aside>
-        <h3 class="title">{{ post.title }}</h3>
-    </a>
-</div>
+<article class="post-card">
+    {% if post.image %}
+        <a href="{{ post.url | relative_url }}" class="post-card-image-link">
+            <img src="{{ post.image | relative_url }}" alt="{{ post.title }}" class="post-card-image">
+        </a>
+    {% endif %}
+    <div class="post-card-content">
+        <h2 class="post-card-title">
+            <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+        </h2>
+        <span class="post-card-date">{{ post.date | date: "%B %d, %Y" }}</span>
+        {% if post.description %}
+            <p class="post-card-excerpt">{{ post.description }}</p>
+        {% elsif post.excerpt %}
+            <p class="post-card-excerpt">{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
+        {% endif %}
+        <a href="{{ post.url | relative_url }}" class="post-card-read-more">Read More</a>
+    </div>
+</article>

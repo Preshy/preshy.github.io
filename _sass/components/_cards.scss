@@ -1,0 +1,65 @@
+.post-card {
+    background: #fff;
+    border: 1px solid $epsilon; // $epsilon from _variables.scss
+    border-radius: 8px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    transition: box-shadow 0.3s ease-in-out;
+
+    &:hover {
+        box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+    }
+
+    .post-card-image-link {
+        display: block;
+        overflow: hidden; // Prevents image from bleeding out of rounded corners if image itself isn't rounded
+    }
+
+    .post-card-image {
+        width: 100%;
+        height: auto;
+        display: block;
+        // Consider a fixed height for images in cards for uniformity, with object-fit: cover;
+        // height: 200px;
+        // object-fit: cover;
+    }
+
+    .post-card-content {
+        padding: 15px;
+
+        .post-card-title a {
+            font-size: 1.5rem;
+            color: $beta; // $beta from _variables.scss
+            text-decoration: none;
+            font-weight: bold;
+            &:hover {
+                color: $delta; // $delta for link hover
+            }
+        }
+
+        .post-card-date {
+            font-size: 0.9rem;
+            color: $gama; // $gama from _variables.scss
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        .post-card-excerpt {
+            font-size: 1rem;
+            line-height: 1.6;
+            color: $alpha; // $alpha from _variables.scss
+            margin-bottom: 15px;
+        }
+
+        .post-card-read-more {
+            font-size: 0.9rem;
+            color: $delta;
+            text-decoration: none;
+            font-weight: bold;
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+}
