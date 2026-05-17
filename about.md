@@ -5,95 +5,48 @@ skip_index: true
 ---
 ![Profile Image]({{ site.url }}/{{ site.picture }})
 
-I’m Precious O. (Master Preshy), a seasoned senior software engineer with over a decade of experience in full-stack development. With a deep passion for AI and machine learning, I excel at merging technical prowess with creative product development. Proficient in both frontend and backend development, DevOps, and machine learning, I bring a versatile skill set to the table. Alongside my technical expertise, I possess strong interpersonal skills, including leadership, empathy, attention to detail, and a quick learning ability. I am dedicated to delivering top-quality results, fostering success for projects and teams alike. Let’s collaborate and achieve greatness together!
+I’m **Precious O.** (Master Preshy), a **Senior Full Stack (AI) Software Engineer** with 10+ years of experience building scalable products, leading engineering teams, and shipping AI-powered solutions. I specialize in turning complex business problems into elegant, high-performance systems.
 
-My accomplishments:
-- DongMi
-	- Founder (2022-present)
+### 🚀 What I Do
+- **AI & Machine Learning**: Building intelligent automation, predictive models, and LLM integrations.
+- **Full Stack Engineering**: End-to-end development with Node.js, Python, PHP, and modern JS frameworks.
+- **Engineering Leadership**: Managing teams, architecting systems, and driving technical strategy.
+- **Product Development**: From zero to launch — I've founded and scaled multiple tech products.
 
-- DebugHunters
-	- Founder (2019-present)
-   
-- Vesicash [Full-time]:
-  - Engineering Manager [Jan 2022 - Nov 2022]
-  	- I spearheaded a team of 4 in the conceptualization and maintenance of multiple backend systems across our product stack, in collaboration with multiple departments within the company.
-  - Lead Developer [Aug 2019 - Dec 2021]
-    - As the Lead Developer, I was responsible for the conceptualization, management, and maintenance of the team of engineers who developed Version 1 of Vesicash’s Financial Technology Infrastructure. 
+### 💼 Experience
+- **DongMi** | Founder (2022-present)
+- **DebugHunters** | Founder (2019-present)
+- **Vesicash** | Engineering Manager → Lead Developer (2019-2022)
+  - Led a team of 4 engineers building core fintech infrastructure.
+  - Architected and maintained multiple backend systems across the product stack.
+- **Incollab Corp** | Lead Developer (2017-2018)
+- **Yanpals** | Backend Engineer (2018)
+- **NugiTech** | Full-stack Engineer & Penetration Tester (2017)
 
-- Incollab Corp [Contract]:
-  - Lead Developer [July 2017 - Jan 2018]
-    - I served as a full-stack software engineer, developing both the frontend and backend aspects of the project
-    - I was also responsible for deployment and technical meetings
-    - I also integrated APIs into frontend designs
+### 🛠️ Tech Stack
+| Category | Tools |
+|----------|-------|
+| **Languages** | JavaScript/Node, Python, PHP, Go, Ruby, TypeScript |
+| **Frameworks** | Express, Laravel, Django, Flask, Ionic, Angular, Vue.js |
+| **Databases** | PostgreSQL, MySQL, MongoDB, Redis, SQLite |
+| **DevOps** | Docker, CI/CD, AWS, Git, Linux, Nginx |
+| **AI/ML** | PyTorch, TensorFlow, LLM APIs, LangChain, RAG |
 
-- Yanpals [Contract]:
-  - Backend Engineer [Jan 2018 - Aug 2018]
-  - I was responsible for devops tasks
-  - I also gained experience in full-stack development during this period
+### 🏆 Featured Projects
+| Project | Description | Stars |
+|---------|-------------|-------|
+| [**defpromo**](https://github.com/Preshy/defpromo) | Social media self-promotion web extension | ⭐ 22 |
+| [**vibe-stack**](https://github.com/Preshy/vibe-stack) | AI-first PWA framework for rapid development | ⭐ 11 |
+| [**networking-bots**](https://github.com/Preshy/networking-bots) | Advanced TikTok/X/YouTube networking bot | ⭐ 6 |
+| [**vibesec**](https://github.com/Preshy/vibesec) | VS Code security guardrail for secure code | ⭐ 2 |
+| [**AI Tools Directory**](https://preshy.github.io/ai-tools-seo/) | Programmatic SEO site comparing 500+ AI tools | 🆕 |
 
-- NugiTech [Contract]:
-  - Full-stack Software Engineer [Jan 2017 - Dec 2017]
-    - I took on the additional role of a penetration tester for in-house projects.
+### 📬 Let's Work Together
+I'm always open to interesting projects, consulting gigs, or engineering leadership roles.
 
-## Some of my technical skills
-- Operating Systems:
-	- *nix
-	- Macintosh
-- Languages:
-	- Javascript/Node
-	- Python
-	- Ruby
-	- Go
-	- HTML & CSS
-	- PHP
-	- Any other language required to get the job done
-- Frameworks:
-	- Laravel
-	- Lumen
-	- Express
-	- Ionic
-	- Wordpress
-	- Angular
-	- Flask
-	- Jekyll
-	- Django
-	- NodeJS
-	- Any other framework required to get the job done
-- Libraries:
-	- VueJS
-	- Handlebars
-	- EmberJS
-	- Any other required opensource library with good support and docs
-- Database:
-	- MongoDB
-	- MySQL
-	- SQLite
-	- Postgres
-	- Redis
-- Tooling:
-	- Git
-	- Npm
-	- VSCode
-	- XCode
-	- Terminal
-	- Postman
-	- CI/CD
-	- Any other tool required to get the job done
+- 📧 [Email Me](mailto:precious@dongmi.shop)
+- 💼 [LinkedIn](https://linkedin.com/in/preshydev)
+- 🐙 [GitHub](https://github.com/Preshy)
+- 🤖 [AI Tools Directory](https://preshy.github.io/ai-tools-seo/)
 
-## Some of my soft skills
-- Good communicator
-- Leadership
-- Good leader
-- I adapt to new environment and situations fast
-- Incredible at learning fast and learning on the job
-- Problem solving ability. I smash complex problems into the molecular ones.
-- Critical thinking
-- Great at conflict resolution
-- Great with people!
-
-## Projects
-I try to write about projects I find interesting. Find a couple on
-- [My linkedin page](https://linkedin.com/in/devpreshy)  
-- [My github page](https://github.com/Preshy)  
-
-[shoot me a mail](mailto:precious@dongmi.shop)
+*Available for freelance, consulting, and full-time opportunities.*

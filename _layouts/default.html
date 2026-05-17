@@ -4,13 +4,13 @@ layout: compress
 <!DOCTYPE html>
 <html lang="en">
   <head>
-
     <meta charset="utf-8">
     <meta http-equiv=X-UA-Compatible content="IE=edge,chrome=1">
     <meta name=viewport content="width=device-width, initial-scale=1">
 
-    <meta name=description content="{{ site.bio }}">
+    <meta name=description content="{{ site.description }}">
     <meta name=author content="{{ site.name }}">
+    <meta name=theme-color content="#2563eb">
 
     {% seo %}
 
@@ -18,6 +18,9 @@ layout: compress
 
     <link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html','' }}">
     <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ site.url }}{{ "/feed.xml" }}" />
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://pagead2.googlesyndication.com" crossorigin>
 
     <style>
       {% capture scss_sheet %}{% include style.scss %}{% endcapture %}

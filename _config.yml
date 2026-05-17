@@ -1,9 +1,9 @@
 # main text of home
 name: Master Preshy
-bio: "Tech Entrepreneur"
+bio: "Senior Full Stack (AI) Software Engineer"
 
 # twitter summary info
-description: Bio-website of Master Preshy.
+description: "Tech Entrepreneur & AI Engineer building scalable products."
 
 # if it's an external image, update below for true
 # better with square images
@@ -16,7 +16,7 @@ resume: false
 resume-external: false
 # resume-url: https://google.com/?q=my+resume
 
-#url: lagosnomad.com
+url: https://preshy.github.io
 # your url: http://USERNAME.github.io
 
 permalink: /:title/
@@ -102,6 +102,7 @@ plugins:
   - jemoji
   - jekyll-admin
   - jekyll-paginate
+  - jekyll-sitemap
 
 jekyll-mentions:
     base_url: https://github.com
